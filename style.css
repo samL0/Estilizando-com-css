@@ -1,0 +1,44 @@
+*{
+	margin: 0; /*margem zerada ou seja tirada do padrão que ja vem do navegador  */
+	padding: 0;
+}
+
+/*
+*
+*
+Estilo para o conteúdo do nosso site
+*
+*
+*/
+
+
+.artigo{ /* chamamos o artigo do html direto usando um ponto */
+	width: 1280px; 
+	background-color: rgb(243, 243, 243); /* cor de fundo */
+	padding: 40px; 
+	margin:40px auto;
+	text-align: center; /* alinhar texto no centro  */
+	/* Maneira mais fácil para aplicar para todos os textos de uma vez*/
+	font-family: tahoma;
+}
+
+.artigo h1,h2,h3{
+	color:rgb(66, 83, 244);
+	font-size: 23px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	
+	/*font-variant: small-caps;deixa todo o texto quase do tamanho das letras maisuculas porem
+	um pouco menor do que a original  */
+}
+
+.artigo p{
+	color:rgb(1, 2, 14);
+	text-align: left;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 30px;
+	margin-top:12px;
+}
